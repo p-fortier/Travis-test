@@ -4,4 +4,13 @@ install: skip
 jdk: oraclejdk8
 
 script:
-  - ./gradlew build --scan -s
+  - ./gradlew jar
+
+deploy:
+  provider: releases
+  api_key: "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"
+  file: "app/build/libs/app.jar"
+  skip_cleanup: true
+  overwrite: true
+  on:
+    tags: true
