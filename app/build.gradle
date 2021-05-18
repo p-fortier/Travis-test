@@ -25,3 +25,10 @@ application {
     // Define the main class for the application.
     mainClass = 'travis.example.App'
 }
+
+if (hasProperty('buildScan')) {
+    buildScan {
+        termsOfServiceUrl = 'https://gradle.com/terms-of-service'
+        termsOfServiceAgree = 'yes'
+    }
+}
