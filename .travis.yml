@@ -23,7 +23,7 @@ deploy:
   overwrite: true
   on:
     branch: master
-    jdk: oraclejdk9
+    jdk: oraclejdk8
 env:
   global:
     secure: AVsVD3TzEh2E/zdVZThtSKifys8jYP5lkE5MIHv1h2hsBS4G7E7YF7zEfQl4/xWCiOSSzWskycrimDFYjH3fGD1uats58sWmHMmGV7oFEPDYTChLoYz9DYH41QtbeLc34URvN3knBSpqEOcCijnwB29y9uyug085wFHhRYNi60Fer2hL6Vc3fOv6knRYSWgtNvDOck/KjVZ07ZpzTXexEgG9zvH4TvLb3EGKV/XeAq/HDQa9h6XeA2Hd3yxmAb+Vov2IM77MCcj8z7eM2FmHJ1RftZmu8sI7uX4nPyTpLVIx/FoOl4ACpdHdWdQlKxNjzd1yk54BlWDdAzhwTXM55bs8Ps/vLFsX8nrIDP5Cavk0xtMIY5rSvz30QweOss3j8UA9nG+s8hti6bxcOjvmdjP9GjAUvi4pmwtg+tqQP8JlLYYn8OKQPmdym4vJn7lXjk/6CNHv/bZ7pKlqitetXwyNen3iS0YXZqBLRwTVQFpSknuhJwjo5x5bzS0Dz9ukkOmJB9ka+AHFHkxTg2Dw0cs5BmC+O6cvIk6MYrVGwI7uQ+Jf1Vcpay9tvIIt4TxxzDEW8NQ+sS+jRj3GpzFmTCOwgRhyAS4ZvSb3WTT3ITkoLj/4QiHIUmqUu5Not4bfMh1u07Jkc6qMpMXHjjuMfqP1BJvvtCPqODEPQfj3bfw=
