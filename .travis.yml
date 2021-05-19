@@ -16,8 +16,7 @@ before_deploy:
 
 deploy:
   provider: releases
-  api_key:
-    secure: "GdvgqCOJe4lumrBofnK5LEZIZclNYFRS2iD8wNC3SaSoJvIDsHOdLTJV79C0vjqU+uKtaSJayH/i4lAjv4nstOr8skYKvID0OclPnqxuglLY48jMDngGg8xW+6h9b35Xxi9ni6kjyMedwcCMszQ+HHlmy+915S/tu0W0V7gB9BZuxS+ctgxlLDhHMfR6YPj1T8pWAzji4LgU4389gxfO1pr5R2Sso3Hg50GH4wcbHeTp5aqAbFdxXUA/MCMRf085gOcT11ExMQVaQLWHowpM4J+r0U3yD2y36S+AFJVrDqeL51M6Ji2JRVo5+VEAfGRn2mr7Uy/80IJ7TNHnA/hxk2Wh0qoACM7jGgh7b6cxlERlvqlEpYkPMyyPjT3GEDLcY7Fo/3I3g3/Seera2LSzZlEPAkkiuDvk0ypeEuv18wl4qrK5/lbt1GrGJakZlTZfWYOXVhoqQTiIoyD/siMNG+1GwWGT/ve8avfzP7iDt+KJmQioyC02y/Pg0gADJibBQxSdc7pfbv5Vl3Cver2cdxbwZJHMQBs7RlZsiyX1Hw4oQWv7yFIzpbcVPOelfQ0zx0U6cnr08ysKEPRnut6xm8vsK4GBVDVH18bByrdsAu3S1Tk1AamMClBJlY9sNo0ryyAwrrCdmWV0kllmzHQoaWbbJtUKWQ1h4kftObb4q00="
+  api_key: $GITHUB_TOKEN
   file_glob: true
   file: "app/build/libs/*"
   skip_cleanup: true
