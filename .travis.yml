@@ -11,8 +11,8 @@ before_deploy:
   - ./gradlew jar
   - git config --local user.name "Patrik FORTIER"
   - git config --local user.email "patrik.fortier@insa-lyon.fr"
-  - export NAME="v$(./gradlew version -q)"
-  - git tag $NAME
+  - export TAG="$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
+  - git tag $TAG
 
 deploy:
   provider: releases
