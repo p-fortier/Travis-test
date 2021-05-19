@@ -4,7 +4,7 @@ install: skip
 
 jdk: oraclejdk8
 
-script: "./gradlew clean build --rerun-tasks --scan" # gradle build runs test
+script: "./gradlew clean build" # gradle build runs test
 
 before_deploy:
   - ./gradlew clean
